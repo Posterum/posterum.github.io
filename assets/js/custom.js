@@ -39,6 +39,20 @@
             /*====================================
             VAGAS SLIDESHOW SCRIPTS
             ======================================*/
+            $(function() {
+                $('body').vegas({
+                    slides: [
+                        { src: 'assets/img/1.jpg', fade: 1000, delay: 9000},
+                        { src: 'assets/img/2.jpg', fade: 1000, delay: 9000},
+                        { src: 'assets/img/3.jpg', fade: 1000, delay: 9000},
+                    ],
+                    transition: 'slideLeft',
+                    animation: 'random',
+                    overlay: 'assets/plugins/vegas/overlays/05.png'
+
+                });
+            });
+            /*
             $(function () {
                 $.vegas('slideshow', {
                     backgrounds: [
@@ -47,11 +61,12 @@
                                          
                     ]
                 })('overlay', {
-                    /** SLIDESHOW OVERLAY IMAGE **/
+                    // SLIDESHOW OVERLAY IMAGE //
                     src: 'assets/plugins/vegas/overlays/05.png' // THERE ARE TOTAL 01 TO 15 .png IMAGES AT THE PATH GIVEN, WHICH YOU CAN USE HERE
                 });
 
             });
+            */
 
             $(function () { 
                 $('.carousel').carousel({
