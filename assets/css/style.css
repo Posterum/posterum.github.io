@@ -91,7 +91,9 @@ color: #FFF;
 }
 
 .navbar-inverse .navbar-brand {
+/*
 color: #FFF;
+*/
 }
 
 .navbar-inverse {
@@ -188,7 +190,7 @@ border-radius: 0px;
 }
 
 #data_aquisition {
-    color:#fff;
+    color:rgb(14, 14, 14);
 }
 
 #data_storage {
@@ -196,7 +198,7 @@ border-radius: 0px;
 }
 
 #data_sampling {
-    color:#fff;
+    color:rgb(14, 14, 14);
 }
 
 #data_mining {
@@ -204,7 +206,7 @@ border-radius: 0px;
 }
 
 #data_deployment {
-    color:#fff;
+    color:rgb(14, 14, 14);
 }
 
 #data_project {
