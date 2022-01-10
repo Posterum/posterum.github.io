@@ -16,7 +16,7 @@
 ==================================================*/
 
 body {
-    font-family:'Open Sans', sans-serif;
+          font-family:'Open Sans', sans-serif;
     font-size:14px;
 }
 
@@ -91,9 +91,7 @@ color: #FFF;
 }
 
 .navbar-inverse .navbar-brand {
-/*
 color: #FFF;
-*/
 }
 
 .navbar-inverse {
@@ -190,7 +188,7 @@ border-radius: 0px;
 }
 
 #data_aquisition {
-    color:rgb(14, 14, 14);
+    color:#fff;
 }
 
 #data_storage {
@@ -198,7 +196,7 @@ border-radius: 0px;
 }
 
 #data_sampling {
-    color:rgb(14, 14, 14);
+    color:#fff;
 }
 
 #data_mining {
@@ -206,7 +204,7 @@ border-radius: 0px;
 }
 
 #data_deployment {
-    color:rgb(14, 14, 14);
+    color:#fff;
 }
 
 #data_project {

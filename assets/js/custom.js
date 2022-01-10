@@ -47,8 +47,8 @@
                         { src: 'assets/img/3.jpg', fade: 1000, delay: 9000},
                     ],
                     transition: 'slideLeft',
-                    animation: 'random',
-                    overlay: 'assets/plugins/vegas/overlays/05.png'
+                    animation: 'random' ,
+                    overlay: 'assets/plugins/vegas/overlays/03.png'
 
                 });
             });
